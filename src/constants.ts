@@ -33,8 +33,8 @@ export const PRODUCTS: Product[] = [
     category: 'Shirts',
     description: 'High-quality cotton checkered shirt with a refined fit. Perfect for both casual and semi-formal wear.',
     images: [
-      '/src/assets/images/checkered_shirt_beige_1779101242749.png',
-      '/src/assets/images/checkered_shirt_back_1779101674707.png'
+      '/assets/images/checkered_shirt_beige_1779101242749.png',
+      '/assets/images/checkered_shirt_back_1779101674707.png'
     ],
     sizes: ['S', 'M', 'L', 'XL'],
     trending: true,
@@ -47,8 +47,8 @@ export const PRODUCTS: Product[] = [
     category: 'Pants',
     description: 'Comfortable streetwear jogger pants with contrast drawstrings and a modern tapered fit.',
     images: [
-      '/src/assets/images/streetwear_pants_grey_1779101259530.png',
-      '/src/assets/images/olive_joggers_side_1779101695180.png'
+      '/assets/images/streetwear_pants_grey_1779101259530.png',
+      '/assets/images/olive_joggers_side_1779101695180.png'
     ],
     sizes: ['30', '32', '34', '36'],
     trending: true,
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     price: 1699,
     category: 'Pants',
     description: 'Deep black utility pants designed for the urban environment. Durable fabric with adjustable waist.',
-    images: ['/src/assets/images/streetwear_pants_black_1779101277963.png'],
+    images: ['/assets/images/streetwear_pants_black_1779101277963.png'],
     sizes: ['30', '32', '34', '36'],
     newArrival: true,
   },
@@ -70,8 +70,8 @@ export const PRODUCTS: Product[] = [
     category: 'Outerwear',
     description: 'Classic collegiate varsity jacket with premium leather-look sleeves and detailed embroidery.',
     images: [
-      '/src/assets/images/varsity_jacket_black_1779101295165.png',
-      '/src/assets/images/varsity_jacket_back_1779101712895.png'
+      '/assets/images/varsity_jacket_black_1779101295165.png',
+      '/assets/images/varsity_jacket_back_1779101712895.png'
     ],
     sizes: ['M', 'L', 'XL'],
     trending: true,
@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     price: 1799,
     category: 'Shirts',
     description: 'A bold statement piece featuring large floral motifs on a premium dark cotton base.',
-    images: ['/src/assets/images/floral_black_shirt_1779101313801.png'],
+    images: ['/assets/images/floral_black_shirt_1779101313801.png'],
     sizes: ['S', 'M', 'L'],
     trending: true,
     newArrival: true,
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     price: 799,
     category: 'Accessories',
     description: 'Vintage-washed denim cap with a heavy embroidered patch. Adjustable strap for a comfortable fit.',
-    images: ['/src/assets/images/denim_cap_blue_1779101334401.png'],
+    images: ['/assets/images/denim_cap_blue_1779101334401.png'],
     sizes: ['ONE SIZE'],
   },
   {
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     price: 1999,
     category: 'Shirts',
     description: 'Signature red button-down shirt with a classic polo collar. Crafted from premium breathable cotton.',
-    images: ['/src/assets/images/polo_shirt_red_luxury_1779101352146.png'],
+    images: ['/assets/images/polo_shirt_red_luxury_1779101352146.png'],
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     newArrival: true,
   },
@@ -113,8 +113,8 @@ export const PRODUCTS: Product[] = [
     category: 'Outerwear',
     description: 'Heavyweight brown hoodie featuring a large vibrant graphic on the back. A true streetwear essential.',
     images: [
-      '/src/assets/images/hoodie_back_graphic_1779101368585.png',
-      '/src/assets/images/hoodie_front_view_1779101728496.png'
+      '/assets/images/hoodie_back_graphic_1779101368585.png',
+      '/assets/images/hoodie_front_view_1779101728496.png'
     ],
     sizes: ['M', 'L', 'XL', 'XXL'],
     trending: true,

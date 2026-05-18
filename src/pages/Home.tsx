@@ -19,9 +19,10 @@ export default function Home() {
           className="absolute inset-0"
         >
           <img 
-            src="/src/assets/images/luxury_streetwear_hero_1779099203489.png" 
+            src="/assets/images/luxury_streetwear_hero_1779099203489.png" 
             alt="Mafiya Luxury Streetwear" 
             className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
           />
         </motion.div>
         
@@ -97,6 +98,7 @@ export default function Home() {
               src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=1000&auto=format&fit=crop" 
               alt="Monolith Series" 
               className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
             />
           </motion.div>
         </div>

@@ -46,7 +46,7 @@ export default function Cart() {
               className="flex gap-6 pb-8 border-b border-gray-100"
             >
               <div className="w-32 aspect-[3/4] overflow-hidden bg-gray-50">
-                <img src={item.images[0]} className="w-full h-full object-cover" />
+                <img src={item.images[0]} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
               
               <div className="flex-grow flex flex-col justify-between">

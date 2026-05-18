@@ -43,7 +43,7 @@ export default function ProductDetail() {
                   activeImage === idx ? "border-black" : "border-transparent opacity-50 hover:opacity-100"
                 )}
               >
-                <img src={img} className="w-full h-full object-cover" />
+                <img src={img} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </button>
             ))}
           </div>
@@ -54,7 +54,7 @@ export default function ProductDetail() {
             transition={{ duration: 0.3 }}
             className="flex-grow aspect-[3/4] overflow-hidden bg-gray-50 order-1 md:order-2"
           >
-            <img src={product.images[activeImage]} className="w-full h-full object-cover" />
+            <img src={product.images[activeImage]} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </motion.div>
         </div>
 
